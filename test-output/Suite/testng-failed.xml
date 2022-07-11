@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" preserve-order="true">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="sanity"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.testngtask.TestNG_Task005">
+        <methods>
+          <include name="passWord"/>
+          <include name="click" invocation-numbers="0"/>
+          <include name="userName"/>
+        </methods>
+      </class> <!-- org.testngtask.TestNG_Task005 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

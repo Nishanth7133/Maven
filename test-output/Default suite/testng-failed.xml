@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="org.testngtask.TestNG_Task005">
+        <methods>
+          <include name="passWord"/>
+          <include name="startTime"/>
+          <include name="endTime"/>
+          <include name="end1"/>
+          <include name="click" invocation-numbers="0"/>
+          <include name="userName"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- org.testngtask.TestNG_Task005 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
